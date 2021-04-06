@@ -1,0 +1,40 @@
+body{
+    background-image: url('./image/img2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.quest-box{
+    /* in this box all the stuff is present like whole quiz system */
+    background: rgba(255, 255, 255, 0.2);
+    padding: 32px;
+    margin-top: 100px;
+}
+.question li{
+    /* javascript class for quitions  */
+    list-style-type: none;
+    padding-left: 0;
+    background-color: #418fc4;
+    padding: 16px !important;
+    margin-bottom: 16px;
+    font-size: 24px;
+    color: white;
+}
+.question li.active{
+    background: #080079;
+    color: white;
+}
+p.category{
+    font-size: 20px;
+}
+.heading{
+    margin-bottom: 32px;
+}
+.badge{
+    font-size: 32px;
+}
+.btn-info{
+    color: white !important;
+    font-size: 24px;
+
+}
